@@ -2,8 +2,8 @@ import os
 import requests
 
 TOKEN = os.environ.get('GITHUB_TOKEN')
-OWNER = 'oyakivchik'
-REPO = 'devops_practice'
+OWNER = 'Aiveng0'
+REPO = 'site'
 WORKFLOW_ID = 'ivan-tsaryk-341sk-lab5.yml'
 # WORKFLOW_ID = '11426921'
 
