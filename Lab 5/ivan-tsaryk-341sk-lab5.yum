@@ -1,4 +1,4 @@
-name: ivan-tsaryk-341sk-lab5
+name: Ivan-Tsaryk-341sk-lab5
 on:
   workflow_dispatch:
 jobs:
