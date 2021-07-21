@@ -22,4 +22,4 @@ jobs:
          # - name: Exetute log_parser.py and parse logs
           #  run: python log_parser.py access.log
           - name: Exetute ip_email.py
-            run: python ip_email.pys
+            run: python ip_email.py
