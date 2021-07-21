@@ -41,7 +41,7 @@ conn.close()
 print('Done')
 
 sender_email = "tsarik197566@gmail.com"
-receiver_email = "olexiy.jakivtchik@gmail.com"
+receiver_email = "kvarkpro@gmail.com"
 
 message = MIMEMultipart("alternative")
 message["Subject"] = "Ivan-Tsaryk-341sk Lab5"
