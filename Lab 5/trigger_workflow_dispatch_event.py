@@ -13,7 +13,7 @@ headers = {
 }
 
 data = {
- 'ref': 'master'
+ 'ref': 'ivan-tsaryk-341sk'
 }
 
 url = f'https://api.github.com/repos/{OWNER}/{REPO}/actions/workflows/{WORKFLOW_ID}/dispatches'
