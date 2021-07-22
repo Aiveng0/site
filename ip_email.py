@@ -40,7 +40,7 @@ for row in result:
 conn.close()
 print('Done')
 
-sender_email = "tsarik197566@gmail.com"
+sender_email = "kvarkpro@gmail.com"
 receiver_email = "testdevops5@gmail.com"
 
 message = MIMEMultipart("alternative")
