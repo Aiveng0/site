@@ -41,7 +41,7 @@ conn.close()
 print('Done')
 
 sender_email = "tsarik197566@gmail.com"
-receiver_email = "olexiy.jakivtchik@gmail.com"
+receiver_email = "kvarkpro@gmail.com"
 
 message = MIMEMultipart("alternative")
 message["Subject"] = "Ivan-Tsaryk-341sk Lab5"
@@ -63,7 +63,7 @@ print('Sending email...')
 # Create secure connection with server and send email
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL("smtp.gmail.com", 465 , context=context) as server:
-    server.login(sender_email, password)
+    server.login(sender_email, "17ivanko17")
     server.sendmail(
         sender_email, receiver_email, message.as_string()
     )
